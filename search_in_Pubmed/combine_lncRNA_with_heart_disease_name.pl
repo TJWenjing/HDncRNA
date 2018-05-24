@@ -6,7 +6,7 @@ my @lncRNA;
 my $combine;
 
 open(FILE3,"> final_result.txt") || die"can not create that file!";
-open(FILE2,"heart_disease_name_final.txt") || die "can not open that file!";
+open(FILE2,"heart_disease_name.txt") || die "can not open that file!";
 chomp(@disease=<FILE2>);
 close FILE2;
 open(FILE1,"lncRNA.txt") || die "can not open that file!";
